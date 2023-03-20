@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    margin: 0;
+
+}
+
+body{
+    /*This is the background for all the page outside the page*/
+    
+        --s: 82px; /* control the size */
+        --c1: #b2b2b2;
+        --c2: #ffffff;
+        --c3: #d9d9d9;
+        
+        --_g: var(--c3) 0 120deg,#0000 0;
+        background:
+          conic-gradient(from -60deg at 50% calc(100%/3),var(--_g)),
+          conic-gradient(from 120deg at 50% calc(200%/3),var(--_g)),
+          conic-gradient(from  60deg at calc(200%/3),var(--c3) 60deg,var(--c2) 0 120deg,#0000 0),
+          conic-gradient(from 180deg at calc(100%/3),var(--c1) 60deg,var(--_g)),
+          linear-gradient(90deg,var(--c1)   calc(100%/6),var(--c2) 0 50%,
+                                var(--c1) 0 calc(500%/6),var(--c2) 0);
+        background-size: calc(1.732*var(--s)) var(--s);
+      
+}
+/* Header */
+.title h1{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 2.9em;
+}
+.container{
+    background: #fff;
+    width: 90%;
+    max-width: 1000px;
+    margin: 1.6em auto;
+
+    display: grid;
+    gap: 1.6em;
+    grid-template-columns: repeat(5,1fr);
+
+}
+
+.container > .header,
+.container > .content,
+.container > .sidbar,
+.container > .footer,
+.container > div {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+
+.container .header,
+.container .footer {
+    grid-column: 1/6;
+    background: #1e272e;
+    color: #ffffff;
+}
+.container > .content{
+    grid-column: span 3;
+}
+
+.content >.article{
+    background: #809e9b;
+    padding: 20px;
+    margin-top: 5px;
+    color: #dfe6e9;
+}
+
+.content .article h1,
+.content .article p{
+    padding:10px;
+}
+
+
+.container > .sidebar{
+    grid-column:  span 2;
+    background: #485460;
+    color: #ffffff;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .sidebar img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+
+
+.container > .related-post{
+    background: #2d3436;
+    color: #ffffff;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s ease;
+
+
+}
+.container > .related-post:hover {
+    cursor: pointer;
+    color: #000000;
+    background: #ffffff;
+} 
+
+
+
+
+
+
+
+
+
+
+
+

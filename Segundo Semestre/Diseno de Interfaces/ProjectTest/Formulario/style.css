@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*This is when the body starts*/
+body {
+  background:  url(/Fig2Html/Images/background.jpg) no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Gilroy";
+  height: 1050px;
+ 
+}
+
+.quiz {
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 25rem;
+  margin-top: 5%;
+  transform: translate(50%,-50%);
+  position: absolute;
+}
+
+form header {
+  background-color: #595959;
+  color: #ffffff;
+  padding-left: 50px;
+}
+
+form {
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 45rem;
+}
+
+form div{
+  padding-left: 60px;
+}
+
+form p{
+  font-weight: bold;
+}
+
+.formbutton{
+  background-color: #737572;
+  border-radius: 3px;
+  color: #ffffff; 
+  padding: 5px 10px 5px 10px;
+  border: 0;
+}
+
+.formbutton:hover{
+  cursor: pointer;
+  background-color: #595959;
+
+}
+.material-symbols-outlined{
+  color: rgb(189, 60, 28);
+}
