@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" >
+        <meta name="description" content="Tacos a domicilio">
+        <meta name="keywords" content="carne pastor carne suaperro no_tacostao">
+        <meta name="author" content="Eddie">    
+        <title>.::Tacos de Suaperro::.</title>    
+
+    </head>
+    <body>
+        <h1>.::TACOS EL SUAPERRO FELIZ::.</h1>
+        <H2>Haga su pedido Aqui:</H2>
+       
+       <!--This is the beginning of the Amount of Tacos AKA COUNTER-->
+        <fieldset>
+            <legend>Order</legend>
+            <label for="cant">Cuantos:</label>
+            <input name="cant" type="number" min="4" max="100" placeholder="1-100" required>
+            <BR></BR>
+            <!--This the end of the amount of tacos-->
+
+
+            <!--This is the Type of Meats AKA INSIDE A COMBO BOX-->
+            <label for="relleno">De que</label>
+            <select name="relleno" >
+                <option value="past">Pastor</option>
+                <option value="ad">Adobada</option>
+                <option value="tri">Tripas</option>
+                <option value="bu">Buche</option>
+                <option value="prens">Prensado</option>
+                <option value="faj">Fajita </option>
+                <option value="dog" selected>Suaperro</option>
+                <option value="bir">Birria</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <!--This is the Closing of the Meats-->
+
+            <!--THIS IS THE BEGINING OF TYPE OF SALSA VERDE AKA CHECKBOX-->
+    <legend>Extras</legend>
+    <input name="SV" type="checkbox" value="Salsa Verde" checked>
+    <label for="sv">Salsa Verde</label>
+    <BR></BR>
+    <!--THIS IS THE END OF TYPE OF SALSA VERDE-->
+    
+    <!--THIS IS THE BEGINNING OF SALSA ROJA-->
+    <input name="sr" type="checkbox" value="Salsa Roja">
+    <label for="sr">Salsa Roja</label>
+    <BR></BR>
+    <!--END OF THE SALSA ROJA-->
+
+    <!--THIS IS THE BEGINNING OF POP 1.5-->
+    <input name="ref" type="Checkbox" value="Refresco">
+    <label for="ref">Refresco 1.5lt</label>
+    <BR></BR>
+    <!--THIS IS THE END OF POP 1.5 CHECKBOX-->
+
+    <!--THIS IS THE BEGGINING OF VERDURA CHECKBOX-->
+    <input name="ver" type="checkbox" value="Verdura">
+    <label for="ver">Verdura</label>
+    <BR></BR>
+    <!--THIS IS THE END OF VERDURA CHECK BOX-->
+
+    <!--THIS IS THE BEGINNING OF CHILE-->
+    <input name="chi" type="checkbox" value="Chile">
+    <label for="chi">Chile</label>
+    <BR></BR>
+<!--THIS IS THE END OF CHILE CHECKBOX -->
+<!--DON'T FORGET TO CLOSE FIELDSET-->
+    </fieldset>
+    <!--THIS IS THE BEGINNING OF TYPES OF TORTILLAS RADIO-->
+    <FIeldset>
+        <legend>Tipos de Tortillas</legend>
+        <input type="radio" name="torti" value="Maiz">
+        <label for="torti">Maiz</label>
+        <BR></BR>
+        <!--THIS IS THE END OF TORTILLA MAIZ-->
+
+        <!--THIS IS THE BEGINNING OF HARINA RADIO-->
+        <input type="radio" name="torti" value="Harina">
+        <label for="torti">Harina</label>
+        <BR></BR>
+        <!--THIS IS THE END OF HARINA RADIO-->
+
+        <!--THIS IS THE BEGGINING OF TRIGO-->
+        <input type="radio" name="torti" value="Trigo">
+        <label for="torti">Trigo</label>
+        <BR></BR>
+        <!--THIS IS THE END OF TRIGO-->
+
+        <!--THIS IS THE BEGGINGIN OF AMARILLO RADIO-->
+        <input type="radio" name="torti" value="Amarillo">
+        <label for="torti">Amarillo</label>
+        <BR></BR>
+        <!--THIS IS THE END OF AMARILLO RADIO-->
+
+        <!--THIS IS THE BEGINNING OF MIXTAMAL RADIO-->
+        <input type="radio" name="torti" value="MixTamal">
+        <label for="torti">MixTamal</label>
+        <!--THIS IS THE END OF MIXTAMAL RADIO-->
+        <!--DON'T FORGET TO CLOSE FIELDSET-->
+    </FIeldset>
+    <!--OPEN ANOTHER FIELDSET  FOR CLIENT INFORMATION-->
+    <fieldset>
+        <legend>Info Cliente</legend>
+        <label for="nom">Nombre</label>
+        <input type="text" name="nom" placeholder="Nombre Completo" required>
+        <BR></BR>
+        <!--END OF NOMBRE TEXT TYPE-->
+
+        <!--THE BEGINNING OF THE DIRECCTION-->
+        <label for="dir">Direccion</label>
+        <br>
+        <textarea name="dir"   cols="30" rows="10" placeholder="Ingresa la Direccion" required></textarea>
+        <BR></BR>
+        
+        <label for="tel">TELEFONO</label>
+        <input type="text" name="tel"required>
+    </fieldset>
+    <input type="reset" name="reset"  >
+    <input type="submit" name="ok" value="Hacer Pedido">
+
+
+
+        
+        
+
+
+        </form>
+    </body>
+</html>

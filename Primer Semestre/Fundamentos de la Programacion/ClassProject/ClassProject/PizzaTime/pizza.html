@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="charset" content="utf-8">
+        <meta name="description" content="Pizza Menu">
+        <meta name="keywords" content="pizza menu pepperoni">
+        <meta name="author" content="Edward">
+        <style>
+            textarea {resize: none;}
+        h1 {
+            font-size: 50px;
+            color: blue;
+        }
+        h2{color: blueviolet;}
+        </style>
+        <SCript>
+            
+          /*  var num1=0;
+            var num2=0;
+            var res=0;
+            
+           num1= Number( prompt("Give me the Number 1")); 
+           num2=Number(prompt("Give me the Number 2"));
+           res=num1+num2;
+           alert(res);*/
+
+            
+          /* var radio = 0
+            const pi = 3.1416;
+            let area = 0;
+            //Entrada
+            radio= Number(prompt("Ingrese el radio del circulo"));
+            //Procesamienteo
+            area = pi * (radio * radio); 
+        
+            //Salida
+            alert(area);*/ 
+
+
+
+        </SCript>
+    </head>
+    <form method="post"action="" onsubmit="mostrar_valores()">
+    <h1>.::PIZZA TIME.::</h1>
+    <BR></BR>
+    <h2>
+        Specialties 
+    </h2>
+        <select name="Specials" id="esp"  selected>
+       <option value="Pep">pepperoni</option>
+       <option value="Jal">Jalapeno</option>
+       <option value="chee">Cheese</option>
+       <option value="metlo">Meatlovers</option>
+       <option value="fish">Sushi</option>
+       </select>
+       <BR></BR>
+       
+
+       <fieldset>
+        <legend>Size</legend>
+        <input type="radio" name="Size" id="size" value="small">
+        <label for="small">PanPizza $10.99</label>
+        <BR></BR>
+        <input type="radio" name="Size" id="size" value="medium">
+        <label for="med">Medium $15.99</label>
+        <BR></BR>
+        <input type="radio" name="Size" id="size" value="large">
+        <label for="large">Large $25.99</label>
+        <BR></BR>
+        <input type="radio" name="Size" id="size" value="Jumbo">
+        <label for="Jumbo">Jumbo $30.99</label>
+        <BR></BR>
+
+       </fieldset>
+       <BR></BR>
+
+       <fieldset>
+        <legend>Extras</legend>
+        <input type="checkbox" name="Extras" id="Extras" value="refreshment">
+        <label for="Pop">Refresment 2Lt 9.99</label>
+        <BR></BR>
+
+        <input type="checkbox" name="Pop1" id="pop1" value="refresment1"> 
+        <label for="Pop">Refresment 1Lt 6.99</label>
+        <BR></BR>
+
+        <input type="checkbox" name="Dip" id="Dip" value="Dip0">
+        <label for="Dip">Dip Ranch 3.99</label>
+        <BR></BR>
+
+        <input type="checkbox" name="Dip1" id="Dip1" value="Dip1">
+        <label for="Dip1">Dip Buffalo Ranch 4.99</label>
+        <BR></BR>
+
+        <input type="checkbox" name="Sticks" id="Sticks" value="Sticks1">
+        <label for="Bread Sticks">Bread Sticks 7.99</label>
+        </fieldset>
+        <BR></BR>
+
+        <fieldset>
+
+            <legend>Personal Information</legend>
+            <label for="nam">Name</label>
+            <input type="text" name="name" id="Memba" placeholder="Full Name " required>
+            <BR></BR>
+            <label for="Tel">Telefone</label>
+            <input type="text" name="Telephone" id="Numba" placeholder="(123)123-1234" pattern="\[0-9]{3}\ [0-9]{3}-[0-9]{4]}" required>
+            <BR></BR>
+            <label for="P.A.">Physical Address</label>
+            <BR></BR>
+            <textarea name="P.A." id="P.A." cols="30" rows="10" placeholder="Street and Number
+County
+City,State
+Zipcode" required></textarea>
+        <BR></BR>
+    </fieldset>
+    <input type="reset" value="clear">
+    <input type="submit" name="ok" value="Order" > 
+
+            
+               
+
+            
+            
+
+
+        </fieldset>
+        
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </select>
+    </form>
+</body>
+</html>
+<script src="datos.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    

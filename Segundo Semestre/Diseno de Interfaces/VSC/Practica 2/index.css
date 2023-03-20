@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    height: 100uvh;
+}
+header{
+    height: 10%;
+    background-color: black;
+}
+main{
+    height: 80%;
+    background-image: url("../Folder-1/img/SuperNice.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+footer{
+    height: 20%;
+    background-color: brown;
+}

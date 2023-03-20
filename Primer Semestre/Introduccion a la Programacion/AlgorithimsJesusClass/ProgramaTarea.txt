@@ -1,0 +1,11 @@
+cinco calificaciones, con cinco alumnos
+
+Nombre del Alumno y Calificacion;
+
+Sacar el Promedio de las Calificaciones  
+
+
+
+
+
+

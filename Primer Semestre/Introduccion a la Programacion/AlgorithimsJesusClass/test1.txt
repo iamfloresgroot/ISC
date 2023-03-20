@@ -1,0 +1,12 @@
+Prueba de Clase 
+
+"La langosta ahumada" es una empresa dedicada a ofrecer banquetes; sus tarifas son las siguientes:
+el costo de platillo por persona es 95.00 pero si el numero de personas es mayor a 200 pero menor 
+o iguala 300, el costo es de 85.00. Para mas de 300 personas el costo por platillo es de $75.00.
+Se requiere un algoritmo que determine el presupuesto que se debe presentar a 3 clientes que deseen 
+realizar un evento.
+Mientras es el que debo usar.2
+
+
+
+0

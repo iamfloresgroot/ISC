@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    }
+    
+    h1{
+        color: rgb(83, 48, 140);
+    background-color: aqua;
+    }
+    
+    #dos{
+        font-size: 2rem;
+    }
+    
+    
+    .uno{
+        font-size: 3rem;
+    }

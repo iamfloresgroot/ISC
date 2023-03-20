@@ -1,0 +1,18 @@
+The structure: Ciclos
+
+Valor inicial::: variable = valor;
+
+		Mientras (expresion_logica "esta siempre tiene que ser verdadera para entrar al ciclo") Hacer
+			secencia_de_acciones
+
+			variable = variable +1;
+
+			Fin Mientras
+
+
+Repetir= 
+ 
+Mientras= 
+
+
+
