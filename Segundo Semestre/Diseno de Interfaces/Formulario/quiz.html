@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <title>Quiz</title>
+    <style>
+      .terms {
+        background-color: #c0c0c0;
+        padding: 1rem 1rem 1rem 1rem; 
+        text-align: justify;
+        
+      }
+
+      .terms p{
+        color: black;
+        font-weight: normal;
+        font-size: 12px;
+      }
+      .terms a{
+        color: rgb(15, 91, 126);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="quiz">
+        <form method="post" action="">
+          <header>
+            <h1>QUIZ</h1>
+          </header>
+          <br />
+          <div>
+            <p>1. What is your name?</p>
+
+            <input type="text" name="name" placeholder="Full Name" required />
+          </div>
+          <br /><br />
+          <div>
+            <p>2.Whats your age?</p>
+            <input type="number" name="age" min="18" max="75" />
+            <br /><br />
+            
+            <p  style="font-size: 12px; font-weight: normal"><span class="material-symbols-outlined">gpp_maybe</span>
+              according to our terms of service you must be of legal age to use
+              our products
+            </p>
+          </div>
+          <br /><br />
+          <div>
+            <p>3.What gender you do identify with?</p>
+            <br />
+            <input type="radio" name="gender" value="1" />
+            <label for="gender">Men</label>
+            <br /><br />
+            <input type="radio" name="gender" value="2" />
+            <label for="gender">Woman</label>
+            <br /><br />
+            <input type="radio" name="gender" value="3" />`
+            <label for="gender">LGBT</label>
+            <br /><br />
+            <input type="radio" name="gender" value="4" />
+            <label for="gender">Prefer not to say</label>
+          </div>
+          <br /><br />
+          <div>
+            <p>4.Are you currently managing any of the following?</p>
+            <br />
+            <input type="checkbox" name="diabetes1" value="marked" />
+            <label for="diabetes1">Type 1 diabetes</label>
+            <br /><br />
+            <input type="checkbox" name="diabetes2" value="marked" />
+            <label for="diabetes2">Type 2 diabetes</label>
+            <br /><br />
+            <input type="checkbox" name="eatingdisorder" value="marked" />
+            <label for="eatingdisorder">Eating Disorder</label>
+            <br /><br />
+            <input type="checkbox" name="pregnant" value="marked" />
+            <label for="pregnant"
+              >Pregnant, trying to conceive and or nursing</label
+            >
+            <br /><br />
+            <input type="checkbox" name="nonoftheabove" value="marked" />
+            <label for="nonoftheabove">Non of the above</label>
+            <br /><br /><br />
+            <button type="submit" id="sign" class="formbutton">Submit</button>
+            <br /><br />
+          </div>
+          <div class="terms">
+            <p>
+              This content is created by the owner of the form. The data you
+              submit will be sent to the form owner. This Is The Whey! is not
+              responsible for the privacy or security practices of its customers,
+              including those of this form owner. Never give out your password.
+            </p>
+            <br>
+            <p>
+              Created by This Is The Whey!©️ | <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
